@@ -1,0 +1,400 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* Body Color main */
+body{
+    background-color:#040b14;
+}
+
+
+/* Navbar Background */
+.navbar{
+    background-color: transparent;
+}
+.navbar-light{
+    color: blue;
+}
+/* Brand Name */
+.navbar-brand{
+    font-size: 70px;
+}
+/* Header Social Ul */
+.Header-icon-ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+     margin:auto;
+     color: #fff;
+}
+/* Header Social Li */
+.Header-icon-li{
+    font-size: 30px;
+    margin: 10px 20px;
+}
+/* Header LI Anchor Tag */
+.Header-icon-li a i{
+    color: #fff;
+}
+/* Header List Achor */
+.Header-icon-li a{
+    padding-top: 7px;
+    display: block;
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    border: 3px solid #15f4ee ;
+    background-color:transparent;
+    text-align: center;
+    transition: .4s;
+    box-shadow: 0 5px 4px rgba(0,0,0, 5);
+}
+/* Social Hover */
+.Header-icon-li a:hover{
+    transform: translate(0,-10px);
+}
+.Header-icon-li:nth-child(1) a:hover{
+    background-color: #3b5999;
+}
+.Header-icon-li:nth-child(2) a:hover{
+    background-color: #fb3958;
+}
+.Header-icon-li:nth-child(3) a:hover{
+    background-color:#55acee;
+}
+/*  */
+.menu{
+    color: #15f4ee;
+}
+/* Header Search Button */
+.search_button{
+    text-align: center;
+    border: none;
+    outline: none;
+    width: 150px;
+    margin-left: 5px;
+    margin: 10px 0px;
+    /* padding:10px 20px; */
+    color:  #808080;
+    font-size: 15px;
+    font-family:sans-serif;
+    background-color:transparent;
+    border: 5px solid #15f4ee;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+}
+/* Header Search Button Hover */
+.search_button:hover{
+    box-shadow: 0 0px 60px 0 #15f4ee inset,05px 0px 60px 0 #15f4ee inset,0  0px 60px 0 #15f4ee inset,0 0px 60px 0 #15f4ee inset;
+    color: black;
+    /* text-transform: uppercase; */
+    font-size: 15px;
+}
+/* Header Search Box */
+.search_box{
+    color: #fff;;
+    border: 5px solid #15f4ee;
+    background-color:transparent;
+    border-radius: 30px;
+    height: 50px;
+    width: 150px;
+    margin: 10px 0px;
+    outline: none;
+    transition: none;
+    outline-offset: 0px;
+    font-size: 15px;
+    text-align: center;
+}
+/* Header Search Box Hover */
+.search_box:hover{
+    background-color: #000;
+    color: white;
+    border: 5px solid #15f4ee;;
+}
+/* Container Boder */
+/* .container{
+    border: 3px solid salmon;
+} */
+/* Container Main Heading SA Developers */
+.container>h1{
+    color: white;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+/* Cotainer Heading  */
+.container>h2{
+    color: white;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+/* Contact Box */
+.box1{
+    background-color:transparent;
+    /* border: 3px solid salmon; */
+    margin-top: 10px;
+}
+/* Icons Contac Home Telephone And Mail */
+.icon{
+    color: #15f4ee;
+    font-size: 30px;
+    margin-top: 50px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 100%;
+    background-color: white;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+
+}
+/* Icons Contact Text */
+.box1>.text{
+    color: white;
+    margin-left: 120px;
+    margin-top: -70px;
+}
+/* Contact Paragraph */
+.box1>.text>p{
+    font-size: 20px;
+}
+/* Social Icon Css */
+.social-list{
+    display: flex;
+    list-style-type: none;
+    margin-left: 45px;
+}
+/* Icons Size color css */
+.contact-Icon{
+    color:#fff;
+    font-size: 25px;
+    transition: .4s;
+}
+/* Socil List Hover Css */
+.social-list>li>a{
+    margin-top: 45px;
+    margin-left: 30px;
+    margin-right: 10px;
+    padding-top: 12px;
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #15f4ee ;
+    background-color:transparent;
+    text-align: center;
+    transition:  .4s;
+    box-shadow: 0 5px 4px rgba(0,0,0, 5);
+}
+/* Hover Css */
+.social-list>li>a:hover{
+    transform: translate(0,-10px);
+}
+/* Link1 */
+.social-list>li:nth-child(1) a:hover{
+    background-color: #3b5999;
+}
+/* Link2 */
+.social-list>li:nth-child(2) a:hover{
+    background-color:#55acee;
+}
+/* Link3 */
+.social-list>li:nth-child(3) a:hover{
+    background-color: #fb3958;
+}
+/* Social Links Css End */
+/* Box Two Form */
+.box2{
+    background-color: transparent;
+    /* border: 3px solid rgb(124, 124, 124); */
+    margin-top: 10px;
+}
+/* Form Section Css */
+#form{
+    display: flex;
+    flex-direction: column;
+    margin:0px 30px;
+}
+/* Form Heading */
+.box2>h1{
+    color: white;
+    padding-top: 10px;
+}
+/* Input Boxes Css Work */
+#form input[type="text"] ,input[type="email"], input[type="password"], input[type="tel"],input[type="data"]{
+    margin-top: 30px;
+    margin-bottom: 20px; 
+    /* margin-left: 110px; */
+
+    /* width: 590px;
+    height: 50px; */
+    color: white;
+    background-color:transparent;
+    border:none ;
+    outline: none;
+    border-bottom: 2px solid #15f4ee;
+    font-size: 20px;
+    overflow: hidden;
+}
+/* Button Css Work */
+#form input[type="button"]{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+     width: 200px;
+     height: 60px;
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
+    border: 5px solid #15f4ee;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1s;
+    overflow: hidden;
+}
+/* Button Hover Work */
+#form input[type="button"]:hover{
+    box-shadow: 0 0px 60px 0 #15f4ee inset,05px 0px 60px 0 #15f4ee inset,0  0px 60px 0 #15f4ee inset,0 0px 60px 0 #15f4ee inset;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+
+/* Footer Content Bacj=kgrounf and margin Padding */
+#Footer-content{
+    /* background-color: rgba(7,7,7,.93); */
+    background-color: peru;
+    padding-top: 20px;
+    margin-bottom: -13px;
+}
+/* Footer Main Headings */
+#Footer-content h3{
+    color: #fff;
+    font-weight: 700;
+}
+/* Footer About Paragraph */
+.Footer-about p{
+    color: #fff;
+    font-size: 20px;
+}
+/* Footer Ul */
+.footer-ul{
+    list-style-type: none;
+}
+/* Footer Ul -li -a */
+.footer-ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+}
+/* Footer NewsLaters Email */
+#Footer-Form input[type="email"]{
+    padding: 10px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    border: 3px solid #15f4ee;
+    font-size: 15px;
+    font-weight: 500;
+}
+/* Footer NewsLaters Email Hover */
+#Footer-Form input[type="email"]:hover{
+    border: 3px solid #040b14;
+}
+/* Footer NewsLaters Submit */
+#Footer-Form input[type="submit"]{
+    padding: 10px 24px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    border: 3px solid #040b14;
+    font-size: 15px;
+    font-weight: 500;
+}
+/* Footer NewsLaters Submit Hover */
+#Footer-Form input[type="submit"]:hover{
+    border: 3px solid #15f4ee;
+}
+/* Footer Copy Right */
+.copy-right{
+    padding: 15px 0px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+/* End */
+/* Responsice Code */
+@media screen and (max-width:992px) {
+    .Header-icon-ul{
+        padding: 0px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }   
+}
+/* Responsice Code */
+@media screen and (max-width:440px) {
+    #Footer-content{
+        width: 432px;
+    }
+    .email{
+        width: 50px;
+    }
+    .box2,.text{
+        width: 230px;
+    }
+    #form input[type="text"] ,input[type="email"], input[type="password"], input[type="tel"],input[type="data"]{
+        width: 300px;
+    }
+    h1{
+        width: 300px;
+    }
+    h2{
+        width:300px;
+
+    }
+    .social-list{
+        padding: 0px;
+        margin-left: 0px;
+    }
+    .box1>.text>p{
+        font-size: 15px;
+    }
+}
+/* Responsice Code */
+@media screen and (max-width:250px) {
+    .email{
+        width: 50px;
+    }
+    .box2,.text{
+        width: 230px;
+    }
+    #form input[type="text"] ,input[type="email"], input[type="password"], input[type="tel"],input[type="data"]{
+        width: 300px;
+    }
+    h1{
+        width: 300px;
+    }
+    h2{
+        width:300px;
+
+    }
+    .social-list{
+        padding: 0px;
+        margin-left: 0px;
+    }
+    #Footer-Form{
+        display:flex;
+        flex-direction: column;
+        width: 200px;
+    }
+}
+/* End */

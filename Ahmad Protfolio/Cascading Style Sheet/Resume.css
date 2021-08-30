@@ -1,0 +1,378 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+background-color:#040b14;
+}
+
+/* Navbar Background */
+.navbar{
+    background-color: transparent;
+}
+.navbar-light{
+    color: blue;
+}
+/* Brand Name */
+.navbar-brand{
+    font-size: 70px;
+}
+/* Header Social Ul */
+.Header-icon-ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+     margin:auto;
+     color: #fff;
+}
+/* Header Social Li */
+.Header-icon-li{
+    font-size: 30px;
+    margin: 10px 20px;
+}
+/* Header LI Anchor Tag */
+.Header-icon-li a i{
+    color: #fff;
+}
+/* Header List Achor */
+.Header-icon-li a{
+    display: block;
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    border: 3px solid #15f4ee ;
+    background-color:transparent;
+    text-align: center;
+    transition: .4s;
+    box-shadow: 0 5px 4px rgba(0,0,0, 5);
+}
+/* Social Hover */
+.Header-icon-li a:hover{
+    transform: translate(0,-10px);
+}
+.Header-icon-li:nth-child(1) a:hover{
+    background-color: #3b5999;
+}
+.Header-icon-li:nth-child(2) a:hover{
+    background-color: #fb3958;
+}
+.Header-icon-li:nth-child(3) a:hover{
+    background-color:#55acee;
+}
+/*  */
+.menu{
+    color: #15f4ee;
+}
+/* Header Search Button */
+.search_button{
+    text-align: center;
+    border: none;
+    outline: none;
+    width: 150px;
+    margin-left: 5px;
+    margin: 10px 0px;
+    /* padding:10px 20px; */
+    color:  #808080;
+    font-size: 15px;
+    font-family:sans-serif;
+    background-color:transparent;
+    border: 5px solid #15f4ee;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+}
+/* Header Search Button Hover */
+.search_button:hover{
+    box-shadow: 0 0px 60px 0 #15f4ee inset,05px 0px 60px 0 #15f4ee inset,0  0px 60px 0 #15f4ee inset,0 0px 60px 0 #15f4ee inset;
+    color: black;
+    /* text-transform: uppercase; */
+    font-size: 15px;
+}
+/* Header Search Box */
+.search_box{
+    color: #fff;;
+    border: 5px solid #15f4ee;
+    background-color:transparent;
+    border-radius: 30px;
+    height: 50px;
+    width: 150px;
+    margin: 10px 0px;
+    outline: none;
+    transition: none;
+    outline-offset: 0px;
+    font-size: 15px;
+    text-align: center;
+}
+/* Header Search Box Hover */
+.search_box:hover{
+    background-color: #000;
+    color: white;
+    border: 5px solid #15f4ee;;
+}
+hr{
+    color: #15f4ee;
+
+}
+/* Summary Section Css */
+.Resume-Name{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 15px 0px;
+}
+.objective{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+/* Eduction Section Css */
+.field{
+    color: #fff;
+    margin: 15px 0px;
+    font-weight: 500;
+}
+.institute-links{
+    font-size: 27px;
+    text-decoration: none;
+    color: #fff;
+    margin: 15px 0px;
+}
+.institute-links:hover{
+    color: #15f4ee;
+}
+/* Professsional Expereince Section Css */
+.rank{
+    font-weight:900 ;
+    color: #fff;
+}
+.experience{
+    color: #fff;
+    margin: 15px 0px;
+    font-weight: 500;
+}
+.duration{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+.companies-links{
+    font-size: 27px;
+    text-decoration: none;
+    color: #fff;
+    margin: 15px 0px;
+}
+.companies-links:hover{
+    color: #15f4ee;
+}
+/* Intrest Section Css */
+.Intrest-section{
+    background-color: transparent;
+    color: #fff;
+}
+.card-title{
+    font-size: 25px;
+    font-weight: 700;
+}
+.card-text{
+    font-size: 20px;
+    font-weight: 500;
+}
+.intrest_card1{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 80px;
+}
+.intrest_card2{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 80px;
+}
+.intrest_card3{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: 80px;
+}
+.btn-primary{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+     width: 200px;
+     height: 60px;
+    background-color: transparent;
+    /* color: white; */
+    padding: 10px 20px;
+    border: 5px solid #15f4ee;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1s;
+    overflow: hidden;
+}
+.btn-primary>a{
+    text-decoration: none;
+    color: #fff;
+}
+.btn-primary>a:hover{
+    color: #000;
+}
+/* Button Hover Work */
+.btn-primary:hover{
+    box-shadow: 0 0px 60px 0 #15f4ee inset,05px 0px 60px 0 #15f4ee inset,0  0px 60px 0 #15f4ee inset,0 0px 60px 0 #15f4ee inset;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+
+}
+/* Table Css */
+.table-width{
+    width: 450px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    border: 3px solid #15f4ee;
+}
+/* Footer Content Backkgrounf and margin Padding */
+#Footer-content{
+    background-color: rgba(7,7,7,.93);
+    padding-top: 20px;
+    margin-bottom: -13px;
+}
+/* Footer Main Headings */
+#Footer-content h3{
+    color: #fff;
+    font-weight: 700;
+}
+/* Footer About Paragraph */
+.Footer-about p{
+    color: #fff;
+    font-size: 20px;
+}
+/* Footer Ul */
+.footer-ul{
+    list-style-type: none;
+}
+/* Footer Ul -li -a */
+.footer-ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+}
+/* Footer NewsLaters Email */
+#Footer-Form input[type="email"]{
+    padding: 10px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    border: 3px solid #15f4ee;
+    font-size: 15px;
+    font-weight: 500;
+}
+/* Footer NewsLaters Email Hover */
+#Footer-Form input[type="email"]:hover{
+    border: 3px solid #040b14;
+}
+/* Footer NewsLaters Submit */
+#Footer-Form input[type="submit"]{
+    padding: 10px 24px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    border: 3px solid #040b14;
+    font-size: 15px;
+    font-weight: 500;
+}
+/* Footer NewsLaters Submit Hover */
+#Footer-Form input[type="submit"]:hover{
+    border: 3px solid #15f4ee;
+}
+/* Footer Copy Right */
+.copy-right{
+    padding: 15px 0px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+/* End */
+/* Responsive Code */
+@media screen and (max-width:990px) {
+    .Header-icon-ul{
+        padding: 0px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
+/* Responsive Code */
+@media screen and (max-width:470px) {
+    #Footer-content{
+        width:auto;
+    }
+    .table-width{
+        width: auto;
+    }
+    
+}
+/* Responsive Code */
+@media screen and (max-width:320px) {
+    #Footer-content{
+        width: 320px;
+        background-color: violet;
+    }
+    .table-width{
+        width: 300px;
+    }
+    .intrest_card1,.intrest_card2,.intrest_card3{
+        margin: auto;
+    
+}}
+/* Responsive Code */
+@media screen and (max-width:200px) {
+    #Footer-content{
+        width: 320px;
+        background-color: orange;
+    }
+    .table-width{
+        width: 300px;
+    }
+    .intrest_card1,.intrest_card2,.intrest_card3{
+        margin: auto;
+    }
+    .institute-links{
+        width: 340px;
+        height: 91px;
+    }  
+    .card-title{
+        width: 280px;
+    }  
+    .card-text{
+        width: 280px;
+    }
+    .companies-links{
+        width: 400px;
+        height: 200px;
+        text-align: start;
+    }
+    .experience{
+        width:280px;
+    }
+    .objective{
+        width: 320px;
+    }
+}
+/* Responsive Code */
+@media screen and (width:100px) {
+    .Header-icon-ul{
+        display: block;
+    }
+    .d-flex{
+        flex-direction: column;
+    }
+}
+/* End */

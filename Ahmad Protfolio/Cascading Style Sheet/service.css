@@ -1,0 +1,353 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+background-color: #040b14;
+color: #fff;
+}
+
+
+/* Navbar Background */
+.navbar{
+background-color: transparent;
+}
+.navbar-light{
+color: blue;
+}
+/* Brand Name */
+.navbar-brand{
+font-size: 70px;
+}
+/* Header Social Ul */
+.Header-icon-ul{
+list-style-type: none;
+display: flex;
+justify-content: center;
+align-items: center; 
+ margin:auto;
+ color: #fff;
+}
+/* Header Social Li */
+.Header-icon-li{
+font-size: 30px;
+margin: 10px 20px;
+}
+/* Header LI Anchor Tag */
+.Header-icon-li a i{
+color: #fff;
+}
+/* Header List Achor */
+.Header-icon-li a{
+display: block;
+width: 53px;
+height: 53px;
+border-radius: 50%;
+border: 3px solid #15f4ee ;
+background-color:transparent;
+text-align: center;
+transition: .4s;
+box-shadow: 0 5px 4px rgba(0,0,0, 5);
+}
+/* Social Hover */
+.Header-icon-li a:hover{
+transform: translate(0,-10px);
+}
+.Header-icon-li:nth-child(1) a:hover{
+background-color: #3b5999;
+}
+.Header-icon-li:nth-child(2) a:hover{
+background-color: #fb3958;
+}
+.Header-icon-li:nth-child(3) a:hover{
+background-color:#55acee;
+}
+/*  */
+.menu{
+color: #15f4ee;
+}
+/* Header Search Button */
+.search_button{
+text-align: center;
+border: none;
+outline: none;
+width: 150px;
+margin-left: 5px;
+margin: 10px 0px;
+/* padding:10px 20px; */
+color:  #808080;
+font-size: 15px;
+font-family:sans-serif;
+background-color:transparent;
+border: 5px solid #15f4ee;
+cursor: pointer;
+border-radius: 100px;
+transition: 1.5s;
+}
+/* Header Search Button Hover */
+.search_button:hover{
+box-shadow: 0 0px 60px 0 #15f4ee inset,05px 0px 60px 0 #15f4ee inset,0  0px 60px 0 #15f4ee inset,0 0px 60px 0 #15f4ee inset;
+color: black;
+/* text-transform: uppercase; */
+font-size: 15px;
+}
+/* Header Search Box */
+.search_box{
+color: #fff;;
+border: 5px solid #15f4ee;
+background-color:transparent;
+border-radius: 30px;
+height: 50px;
+width: 150px;
+margin: 10px 0px;
+outline: none;
+transition: none;
+outline-offset: 0px;
+font-size: 15px;
+text-align: center;
+}
+/* Header Search Box Hover */
+.search_box:hover{
+background-color: #000;
+color: white;
+border: 5px solid #15f4ee;;
+}
+
+/* Service Card Width and Height */
+.flip-card {
+  background-color: transparent;
+  margin: 10px 0px;
+  /* padding: 0px 20px; */
+  width: 300px;
+  height: 230px;
+  border: 1px solid #fff;
+  perspective: 1000px; 
+  outline: none;
+}
+.flip-card:hover{
+border: 2px solid #15f4ee;
+}
+/* Service Card Positioning */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  outline: none;
+  border: none;
+}
+
+/* Service Card Hover */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+/* Serivce Card Front Background Color */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+/* Serivce Card Back Background Color */
+.flip-card-back {
+  background-color: #000;
+  color: white;
+  transform: rotateY(180deg);
+}
+/* Serivce Card Image Width Height */
+.Serivce_Image {
+  width: 300px;
+  height: 230px;
+}
+/* Serivce Section figure Caption */
+.figcaption{
+  position: absolute;
+  bottom:  20px;   
+}
+/* Serivce Card Text Decoration None */
+.flip-card-back>a{
+  text-decoration: none;
+  color: #fff;
+}
+/* Service Card Button */
+.Services_button{
+  font-size: 20px;
+  padding-top: 20px;
+   width: 200px;
+   height: 60px;
+  background-color: black;
+  padding: 10px 20px;
+  border: 5px solid #15f4ee;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 1s;
+  overflow: hidden;
+}
+/* Button Hover Work */
+.Services_button:hover{
+  box-shadow: 0 0px 60px 0 #15f4ee inset,05px 0px 60px 0 #15f4ee inset,0  0px 60px 0 #15f4ee inset,0 0px 60px 0 #15f4ee inset;
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+  border: none;
+}
+hr{
+background-color: #15f4ee;
+}
+/* Service Section Carousel-Background */
+.service_carousel_slide{
+  background-color: #000;
+  color: white;
+  margin-bottom: 100px;
+}
+/* Seriice Section Carousel-Inner */
+.service_Carousel{
+padding: 60px 0px;
+}
+/*Service Section Carousel-Image */
+.service_Carousel_image{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 20px;
+}
+/* Service Section Carousel-Text */
+.image_top_text{
+padding: 0px;
+  width: 330px;
+  margin: auto;
+  font-size: 25px;
+  font-weight: 10;
+}
+/* Footer Content Background and margin Padding */
+#Footer-content{
+/* background-color: rgba(7,7,7,.93); */
+background-color: peru;
+padding-top: 20px;
+margin-bottom: -13px;
+}
+/* Footer Main Headings */
+#Footer-content h3{
+color: #fff;
+font-weight: 700;
+}
+/* Footer About Paragraph */
+.Footer-about p{
+color: #fff;
+font-size: 20px;
+}
+/* Footer Ul */
+.footer-ul{
+list-style-type: none;
+}
+/* Footer Ul -li -a */
+.footer-ul li a{
+text-decoration: none;
+color: white;
+font-size: 20px;
+margin: 0px;
+}
+/* Footer NewsLaters Email */
+#Footer-Form input[type="email"]{
+padding: 10px;
+border-radius: 30px;
+outline: none;
+border: none;
+border: 3px solid #15f4ee;
+font-size: 15px;
+font-weight: 500;
+}
+/* Footer NewsLaters Email Hover */
+#Footer-Form input[type="email"]:hover{
+border: 3px solid #040b14;
+}
+/* Footer NewsLaters Submit */
+#Footer-Form input[type="submit"]{
+padding: 10px 24px;
+border-radius: 30px;
+outline: none;
+border: none;
+border: 3px solid #040b14;
+font-size: 15px;
+font-weight: 500;
+}
+/* Footer NewsLaters Submit Hover */
+#Footer-Form input[type="submit"]:hover{
+border: 3px solid #15f4ee;
+}
+/* Footer Copy Right */
+.copy-right{
+padding: 15px 0px;
+color: #fff;
+font-size: 20px;
+text-align: center;
+}
+/* End */
+/* Responsive Code */
+@media screen and (max-width:993px) {
+.Header-icon-ul{
+  padding: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image_top_text{
+  padding: 0px;
+  width: 310px;
+  margin: auto;
+  font-size: 15px;
+  font-weight: 10;
+}
+
+}
+/* Responsive Code */
+@media screen and (max-width:993px) {
+.flip-card{
+  width: 220px;
+  height: 245px;
+} 
+.Serivce_Image{
+  width: 220px;
+  height: 245px;
+} 
+.flip-card-back>h1{
+  font-size: 20px;
+ width: 200px;
+}
+}
+/* Responsive Code */
+@media screen and (max-width:315px) { 
+.flip-card{
+  width: 240px;
+}
+.Serivce_Image{
+  width: 240px;
+}
+#Footer-content{
+  width: 320.5px;
+}
+.service_carousel_slide{
+  width: 310px;
+}
+.image_top_text{
+  padding: 0px;
+  width: 310px;
+  margin: auto;
+  font-size: 15px;
+  font-weight: 10;
+}
+.text-center{
+  width: 280px;
+}
+}
+/* End */

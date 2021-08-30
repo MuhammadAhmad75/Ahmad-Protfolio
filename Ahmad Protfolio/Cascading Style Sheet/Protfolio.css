@@ -1,0 +1,354 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color:#040b14;
+}
+
+/* Navbar Background */
+.navbar{
+    background-color: transparent;
+}
+.navbar-light{
+    color: blue;
+}
+/* Brand Name */
+.navbar-brand{
+    font-size: 70px;
+}
+/* Header Social Ul */
+.Header-icon-ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+     margin:auto;
+     color: #fff;
+}
+/* Header Social Li */
+.Header-icon-li{
+    font-size: 30px;
+    margin: 10px 20px;
+}
+/* Header LI Anchor Tag */
+.Header-icon-li a i{
+    color: #fff;
+}
+/* Header List Achor */
+.Header-icon-li a{
+    display: block;
+    width: 53px;
+    height: 53px;
+    border-radius: 50%;
+    border: 3px solid #15f4ee ;
+    background-color:transparent;
+    text-align: center;
+    transition: .4s;
+    box-shadow: 0 5px 4px rgba(0,0,0, 5);
+}
+/* Social Hover */
+.Header-icon-li a:hover{
+    transform: translate(0,-10px);
+}
+.Header-icon-li:nth-child(1) a:hover{
+    background-color: #3b5999;
+}
+.Header-icon-li:nth-child(2) a:hover{
+    background-color: #fb3958;
+}
+.Header-icon-li:nth-child(3) a:hover{
+    background-color:#55acee;
+}
+/*  */
+.menu{
+    color: #15f4ee;
+}
+/* Header Search Button */
+.search_button{
+    text-align: center;
+    border: none;
+    outline: none;
+    width: 150px;
+    margin-left: 5px;
+    margin: 10px 0px;
+    /* padding:10px 20px; */
+    color:  #808080;
+    font-size: 15px;
+    font-family:sans-serif;
+    background-color:transparent;
+    border: 5px solid #15f4ee;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 1.5s;
+}
+/* Header Search Button Hover */
+.search_button:hover{
+    box-shadow: 0 0px 60px 0 #15f4ee inset,05px 0px 60px 0 #15f4ee inset,0  0px 60px 0 #15f4ee inset,0 0px 60px 0 #15f4ee inset;
+    color: black;
+    /* text-transform: uppercase; */
+    font-size: 15px;
+}
+/* Header Search Box */
+.search_box{
+    color: #fff;;
+    border: 5px solid #15f4ee;
+    background-color:transparent;
+    border-radius: 30px;
+    height: 50px;
+    width: 150px;
+    margin: 10px 0px;
+    outline: none;
+    transition: none;
+    outline-offset: 0px;
+    font-size: 15px;
+    text-align: center;
+}
+/* Header Search Box Hover */
+.search_box:hover{
+    background-color: #000;
+    color: white;
+    border: 5px solid #15f4ee;;
+}
+
+
+/* Protfolio Main Headings */
+.Protfolio_Headings{
+    color: #fff;
+}
+/* Protfolio Images */
+.protfolio_Images{
+    width: 350px;
+    height: 300px;
+    border: none;
+}
+/* Protfolio box back on image */
+.protfolio_box{
+ 
+    position: relative;
+    width: 350px;
+    height: 300px;
+    border: none;
+    background-color: rgb(228, 24, 24);
+}
+/* Protfolio Image content box on image */
+.protfolio_image_content_box{
+    position: absolute;
+    bottom: 5px;
+    left: 20%;
+     width: 60%;
+    height: 38px;
+    border: none;
+    background:transparent;
+    overflow: hidden;
+    padding-top: 3px;
+    text-align: center;
+    border: 2px solid #15f4ee;
+    color: #fff;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 1.3s;
+}
+/* Profolio Image content Hover */
+.protfolio_image_content_box:hover{
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 0px;
+    border: none;
+    color: #fff;
+    background:black;
+    box-shadow: 0 0 10px #2196f3, 0 0 30px #2196f3, 0 0 30px #2196f3;
+    transition-delay: 1.5s;
+    padding-top: 50px;
+}
+/* Protfolio Content Hover Neon Type */
+.protfolio_image_content_box span {
+    position: absolute;
+    display: block;
+}
+/* Span1 */
+.protfolio_image_content_box span:nth-child(1) {
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #15f4ee);
+}
+/* Span 2 */
+.protfolio_image_content_box :hover span:nth-child(1) {
+    left: 100%;
+    transition: 1s;
+}
+/* Span 3 */
+.protfolio_image_content_box  span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent,#2196f3);
+}
+/* Span 3 Hover */
+.protfolio_image_content_box :hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: .5s;
+}
+/* Spna 2 Hover */
+.protfolio_image_content_box  span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent,#255784);
+}
+/* Spna Delay CSS */
+.protfolio_image_content_box :hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+/* Span 4 */
+.protfolio_image_content_box  span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+}
+/* Span 4 Hover */
+.protfolio_image_content_box :hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 1.75s;
+}
+/* Image Content Paragrapgh Css */
+.protfolio_image_content_box>p{
+    margin: 10px;
+    line-height: 30px;
+    opacity: 0;
+    transition: 0.5s;
+}
+/* Paragrapgh Display Dealy */
+.protfolio_image_content_box:hover>p{
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+
+
+
+/* Footer Content Bacj=kgrounf and margin Padding */
+#Footer-content{
+    background-color: rgba(7,7,7,.93);
+    padding-top: 20px;
+    margin-bottom: -13px;
+}
+/* Footer Main Headings */
+#Footer-content h3{
+    color: #fff;
+    font-weight: 700;
+}
+/* Footer About Paragraph */
+.Footer-about p{
+    color: #fff;
+    font-size: 20px;
+}
+/* Footer Ul */
+.footer-ul{
+    list-style-type: none;
+}
+/* Footer Ul -li -a */
+.footer-ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0px;
+}
+/* Footer NewsLaters Email */
+#Footer-Form input[type="email"]{
+    padding: 10px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    border: 3px solid #15f4ee;
+    font-size: 15px;
+    font-weight: 500;
+}
+/* Footer NewsLaters Email Hover */
+#Footer-Form input[type="email"]:hover{
+    border: 3px solid #040b14;
+}
+/* Footer NewsLaters Submit */
+#Footer-Form input[type="submit"]{
+    padding: 10px 24px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    border: 3px solid #040b14;
+    font-size: 15px;
+    font-weight: 500;
+}
+/* Footer NewsLaters Submit Hover */
+#Footer-Form input[type="submit"]:hover{
+    border: 3px solid #15f4ee;
+}
+/* Footer Copy Right */
+.copy-right{
+    padding: 15px 0px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+/* End */
+/* Responsive Code */
+@media screen and (max-width:1200px) {
+    .protfolio_box{
+        width: 300px;
+        height: 300px;
+    }
+    .protfolio_Images{
+        width: 300px;
+        height: 300px;
+    }
+    .Protfolio_Headings{
+        width: 250px;
+    }
+}
+/* Responsive Code */
+@media screen and (max-width:993px) {
+    .Header-icon-ul{
+        padding: 0px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+}
+/* Responsive Code */
+@media screen and (max-width:770px) {
+    .protfolio_box{
+       margin:  10px auto;
+      
+    }
+    .Protfolio_Headings{
+        width: 250px;
+    }   
+}
+/* Responsive Code */
+@media screen and (max-width:310px) {
+    #Footer-content{
+        width: 310px;
+    }
+    .protfolio_box{
+       width: 270px;
+       height: 270px;
+    }
+    .protfolio_Images{
+        width: 270px;
+       height: 270px;
+    }
+    .Protfolio_Headings{
+        width: 250px;
+    }
+}
+/* End */
